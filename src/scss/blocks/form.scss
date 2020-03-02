@@ -1,0 +1,48 @@
+.form{
+  background-color: var(--grey);
+  padding-top: 77px;
+  padding-bottom: 105px;
+  .title{
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 89px;
+  }
+  .checkbox__group{
+    margin-bottom: 36px;
+    display: flex;
+    align-items: center;
+    .checkbox__wrap{
+      display: flex;
+      justify-content: space-between;
+      flex-grow: 1;
+      flex-wrap: wrap;
+    }
+    .label{
+      flex-grow: 1;
+      white-space: nowrap;
+      color: var(--red);
+      margin-right: 31px;
+    }
+    @media screen and (max-width: 575px){
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .label{
+        margin-bottom: 16px;
+      }
+      .checkbox__wrap{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+  .textarea-default{
+    margin-bottom: 44px;
+  }
+  @media screen and (max-width: 991px){
+    .title{
+      margin-bottom: 49px;
+    }
+  }
+}

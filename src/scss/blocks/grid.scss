@@ -1,0 +1,22 @@
+.container-full{
+  width: 100%;
+  overflow: hidden;
+}
+
+.container-m{
+  max-width: 1100px;
+  margin: 0 auto;
+  @media screen and (max-width: 1366px){
+    max-width: calc(1100px + 78px);
+    padding-right: 39px;
+    padding-left: 39px;
+  }
+  @media screen and (max-width: 991px){
+    padding-right: 39px;
+    padding-left: 39px;
+  }
+  @media screen and (max-width: 575px){
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
