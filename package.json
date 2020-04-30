@@ -12,7 +12,7 @@
   "dependencies": {
     "aos": "^2.3.4",
     "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jquery-form-styler": "^2.0.2",
     "popper.js": "^1.16.1",
     "slick-carousel": "^1.8.1"
